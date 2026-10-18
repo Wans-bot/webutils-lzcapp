@@ -1,0 +1,13 @@
+manifest: ./lzc-manifest.yml
+
+# buildscript: 拉取固定上游 tag，组装静态站点并把外部 CDN 资源镜像到本地
+buildscript: ./build.sh
+
+# contentdir: 打包进 lpk 的内容（dist/ 为站点，lazycat-injects/ 为注入脚本）
+contentdir: ./content
+
+# pkgout: lpk 包的输出路径
+pkgout: ./.lazycat-build/
+
+# icon: 由上游官方 favicon.svg 导出的 512x512 PNG（保留原设计，仅做格式转换）
+icon: ./icon.png

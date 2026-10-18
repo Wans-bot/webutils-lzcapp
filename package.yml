@@ -1,0 +1,55 @@
+package: cloud.lazycat.app.webutils
+version: 2.2.0-1
+name: WebUtils 在线工具集
+description: "1088+ 个浏览器端实用工具：JSON 格式化、Base64、二维码、时间戳、图片处理、文本对比、编码转换、网络查询等。多数工具在你的浏览器里本地完成，文件不上传；打开与保存文件都能直接使用懒猫网盘。"
+author: chico
+license: MIT
+homepage: https://github.com/chicogong/html-tools
+min_os_version: 1.5.0
+
+locales:
+  zh:
+    name: WebUtils 在线工具集
+    description: "1088+ 个浏览器端实用工具：JSON 格式化、Base64、二维码、时间戳、图片处理、文本对比、编码转换、网络查询等。多数工具在你的浏览器里本地完成，文件不上传；打开与保存文件都能直接使用懒猫网盘。"
+    usage: |
+      WebUtils 把 1088 个常用小工具装进你的微服：开发、文本、图片、生成器、时间、网络、生活换算等分类，打开即用，不需要注册，也没有单独的登录步骤。
+
+      怎么用：
+      1. 打开应用就是工具集首页，顶部搜索框输入关键词（例如「JSON」「二维码」「时间戳」）或按左侧分类找工具，点开即进入对应工具页。
+      2. 需要输入文件的工具（图片压缩、格式转换、文本对比等）点「选择文件」时，可以选本地文件，也可以直接在懒猫网盘里挑文件；结果下载同样可以保存回网盘。
+      3. 每个工具页都只有自身的参数项，处理过程在浏览器里完成，页面不会把你的内容上传到第三方。
+
+      说明：
+      - 少数网络类工具（IP 查询、二维码识别等）需要访问公网第三方服务，能否使用取决于当前网络；其余工具不联网也能用。
+      - 工具页使用的字体与前端库已随包放在微服本地，不依赖外部 CDN。
+      - 无应用账号：访问权限由微服账号体系负责，换用户不会看到别人的数据（工具本身不保存用户数据）。
+  zh_CN:
+    name: WebUtils 在线工具集
+    description: "1088+ 个浏览器端实用工具：JSON 格式化、Base64、二维码、时间戳、图片处理、文本对比、编码转换、网络查询等。多数工具在你的浏览器里本地完成，文件不上传；打开与保存文件都能直接使用懒猫网盘。"
+    usage: |
+      WebUtils 把 1088 个常用小工具装进你的微服：开发、文本、图片、生成器、时间、网络、生活换算等分类，打开即用，不需要注册，也没有单独的登录步骤。
+
+      怎么用：
+      1. 打开应用就是工具集首页，顶部搜索框输入关键词（例如「JSON」「二维码」「时间戳」）或按左侧分类找工具，点开即进入对应工具页。
+      2. 需要输入文件的工具（图片压缩、格式转换、文本对比等）点「选择文件」时，可以选本地文件，也可以直接在懒猫网盘里挑文件；结果下载同样可以保存回网盘。
+      3. 每个工具页都只有自身的参数项，处理过程在浏览器里完成，页面不会把你的内容上传到第三方。
+
+      说明：
+      - 少数网络类工具（IP 查询、二维码识别等）需要访问公网第三方服务，能否使用取决于当前网络；其余工具不联网也能用。
+      - 工具页使用的字体与前端库已随包放在微服本地，不依赖外部 CDN。
+      - 无应用账号：访问权限由微服账号体系负责，换用户不会看到别人的数据（工具本身不保存用户数据）。
+  en:
+    name: WebUtils Toolbox
+    description: "1088+ browser-side utilities: JSON formatting, Base64, QR codes, timestamps, image processing, text diff, encoding conversion and network lookups. Most tools run locally in your browser; files are not uploaded, and opening or saving files works with the box netdisk."
+    usage: |
+      WebUtils packs 1088 everyday tools into your box: development, text, image, generator, time, network and unit-conversion categories. Open it and start using it; there is no registration and no separate login step.
+
+      How to use:
+      1. The start page is the tool hub. Search by keyword (for example "JSON", "QR code", "timestamp") or browse the left-hand categories, then open a tool page.
+      2. For tools that take a file (image compression, format conversion, text diff and others), the picker lets you choose a local file or a file from the box netdisk; results can be saved back to the netdisk.
+      3. Each tool page has only its own options; processing happens in the browser and your content is not uploaded to third parties.
+
+      Notes:
+      - A few network tools (IP lookup, QR decoding and similar) call public third-party services; whether they work depends on your network. All other tools work offline.
+      - Fonts and front-end libraries used by the tool pages ship inside the package; no external CDN is required.
+      - No app account: access control is handled by the box account system, and the tools themselves store no user data.

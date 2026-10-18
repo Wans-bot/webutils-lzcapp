@@ -1,0 +1,95 @@
+# WebUtils 在线工具集 · 懒猫 LPK V2 运行清单
+#
+# 形态：纯静态站点（上游仓库根目录即 Web 根），由平台以 file:// 路由直接分发，
+# 无服务容器、无数据库、无应用账号。工具在浏览器里本地运行，不保存用户数据。
+#
+# 上游页面原本从外部 CDN 取字体与前端库，构建时已镜像到本地：
+#   assets/fonts/（Google Fonts：Inter / JetBrains Mono / Space Grotesk）
+#   assets/vendor/（jsDelivr、cdnjs、unpkg 的前端库）
+# 因此页面不再依赖外部 CDN，只有少数网络类工具会主动访问用户选择的第三方服务。
+#
+# 注入说明：
+# 1. lazycat-file-bridge：官方《自动拦截文件选择器》要求的同源文件桥（request 阶段）。
+# 2. wu-strip-conditional-headers / wu-html-no-store：HTML 缓存修正。静态页带
+#    ETag/Last-Modified 时客户端可能用条件请求拿到 304 复用旧页面，导致平台注入不生效。
+# 3. open-save-chooser：官方网盘文件选择器（browser 阶段），接管 input[type=file]
+#    与带 download 属性的 blob:/data: 链接，覆盖工具页的「选择文件」与「下载结果」。
+usage: |
+  打开应用就是工具集首页：顶部搜索框输入关键词（例如「JSON」「二维码」「时间戳」），或按左侧分类挑选工具，点开即用。
+
+  需要输入文件的工具（图片压缩、格式转换、文本对比等）点「选择文件」时，既能选本地文件，也能直接从懒猫网盘里挑文件；生成结果下载时同样可以保存回网盘。
+
+  说明：多数工具在浏览器里本地完成，不上传你的内容；少数网络类工具（IP 查询等）需要访问公网第三方服务。应用没有单独的登录步骤，访问权限由微服账号体系负责。
+application:
+  subdomain: webutils
+  routes:
+    - /=file:///lzcapp/pkg/content/dist
+  injects:
+    # ── 网盘文件桥（request 阶段，官方《自动拦截文件选择器》专题）───────────
+    - id: lazycat-file-bridge
+      'on': request
+      auth_required: false
+      when:
+        - /__lazycat_file_bridge/*
+      do:
+        - src: |
+            const bridgePrefix = "/__lazycat_file_bridge";
+            const requestHost = String(ctx.request.host || "").split(":")[0].toLowerCase();
+            const firstDot = requestHost.indexOf(".");
+            const method = String(ctx.request.method || "").toUpperCase();
+            if (firstDot <= 0 || !requestHost.endsWith(".heiyu.space") ||
+                !["GET", "HEAD", "PUT"].includes(method)) {
+              ctx.response.send(["GET", "HEAD", "PUT"].includes(method) ? 400 : 405,
+                "Invalid LazyCat file bridge request");
+              return;
+            }
+            const boxDomain = requestHost.slice(firstDot + 1);
+            ctx.headers.del("Origin");
+            ctx.headers.del("Referer");
+            ctx.proxy.to("https://file." + boxDomain, {
+              path: "/files/home" + ctx.request.path.slice(bridgePrefix.length),
+              query: ctx.request.raw_query,
+              use_target_host: true,
+              timeout_ms: 120000,
+              on_fail: "error",
+            });
+    # ── HTML 缓存修正：request 阶段去掉条件请求头（只有 HTML 请求需要）──────
+    - id: wu-strip-conditional-headers
+      'on': request
+      auth_required: false
+      when:
+        - /*
+      do: |
+        var accept = String(ctx.headers.get("Accept") || "");
+        if (accept.indexOf("text/html") < 0) return;
+        ctx.headers.del("If-None-Match");
+        ctx.headers.del("If-Modified-Since");
+    # ── HTML 缓存修正：response 阶段对 HTML 输出 no-store 并去掉 ETag ────────
+    - id: wu-html-no-store
+      'on': response
+      auth_required: false
+      when:
+        - /*
+      do: |
+        if (ctx.status !== 200) return;
+        var ct = String(ctx.headers.get("Content-Type") || "");
+        if (ct.indexOf("text/html") < 0) return;
+        ctx.headers.set("Cache-Control", "no-store, no-cache, must-revalidate");
+        ctx.headers.del("ETag");
+        ctx.headers.del("Last-Modified");
+    # ── 官方网盘文件选择器（browser 阶段）────────────────────────────────────
+    - id: open-save-chooser
+      'on': browser
+      when:
+        - /*
+      do:
+        - src: file:///lzcapp/pkg/content/lazycat-injects/lzc-file-chooser-inject.js
+          params:
+            diskRoot: /_lzc/files/home
+            fileBridgeRoot: /__lazycat_file_bridge
+            fallbackMime: application/octet-stream
+            locale: auto
+            hooks:
+              fileSystemAccess: true
+              fileInput: true
+              downloadAnchor: true
