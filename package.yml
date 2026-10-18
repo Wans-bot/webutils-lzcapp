@@ -1,5 +1,5 @@
 package: cloud.lazycat.app.webutils
-version: 2.2.0-1
+version: 2.2.0-2
 name: WebUtils 在线工具集
 description: "1088+ 个浏览器端实用工具：JSON 格式化、Base64、二维码、时间戳、图片处理、文本对比、编码转换、网络查询等。多数工具在你的浏览器里本地完成，文件不上传；打开与保存文件都能直接使用懒猫网盘。"
 author: chico
