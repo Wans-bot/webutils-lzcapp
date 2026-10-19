@@ -1,0 +1,38 @@
+{
+ "base": "https://webutils.wans.heiyu.space",
+ "at": "2026-10-19T10:54:22.989Z",
+ "shots": [
+  {
+   "file": "acceptance/shots/pc-01-hub.png",
+   "note": "首页：工具集与分类导航"
+  },
+  {
+   "file": "acceptance/shots/pc-02-tool-grid.png",
+   "note": "首页：工具卡片网格"
+  },
+  {
+   "file": "acceptance/shots/pc-03-json-formatter.png",
+   "note": "JSON 格式化工具：格式化结果"
+  },
+  {
+   "file": "acceptance/shots/pc-04-qrcode.png",
+   "note": "二维码生成工具：生成结果"
+  },
+  {
+   "file": "acceptance/shots/pc-05-netdisk-picker.png",
+   "note": "选择文件：官方懒猫网盘选择器"
+  },
+  {
+   "file": "acceptance/shots/mobile-01-hub.png",
+   "note": "移动端视口首页"
+  },
+  {
+   "file": "acceptance/shots/mobile-02-tool.png",
+   "note": "移动端视口工具页"
+  },
+  {
+   "file": "acceptance/shots/mobile-03-netdisk.png",
+   "note": "移动端视口：网盘选择器"
+  }
+ ]
+}

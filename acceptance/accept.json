@@ -1,0 +1,281 @@
+{
+ "base": "https://webutils.wans.heiyu.space",
+ "cdp": "http://127.0.0.1:9343",
+ "at": "2026-10-19T10:53:13.598Z",
+ "readyMs": 1269,
+ "hub": {
+  "title": "WebUtils - 纯前端工具集 | 1000+免费在线开发工具大全",
+  "lang": "zh-CN",
+  "cjk": 993,
+  "injects": [
+   "https://webutils.wans.heiyu.space/_lzc/injects/inject_loader.js",
+   "https://webutils.wans.heiyu.space/_lzc/injects/open-save-chooser_0.js",
+   "https://webutils.wans.heiyu.space/_lzc/injects/dynamic_params.json?id=open-save-chooser"
+  ],
+  "pickerDefined": true,
+  "toolCards": 1088,
+  "hasSearch": true,
+  "fontFamily": "\"Space Grotesk\", system-ui, sans-serif",
+  "toolCountText": 1,
+  "localStoreKeys": 1,
+  "externalFallback": 0
+ },
+ "externalHosts": [
+  "file.wans.heiyu.space",
+  "ai.wans.heiyu.space"
+ ],
+ "consoleErrors": [
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/sharedMessage' failed: HTTP Authentication failed; no valid credentials available",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+   "url": "https://file.wans.heiyu.space/_lzc/thumbnail/clean/token"
+  },
+  {
+   "text": "[object AxiosError$1]",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/transfer/message/status?qname=uploadTask&qname=downloadTask&qname=fileOperations' failed: HTTP Authenti",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "Access to XMLHttpRequest at 'https://ai.wans.heiyu.space/backend/device/hasDefault' from origin 'https://file.wans.heiyu.space' has been blocked by CORS policy:",
+   "url": "https://file.wans.heiyu.space/#/filepicker2?props=%7B%22title%22%3A%22%E4%BB%8E%E6%87%92%E7%8C%AB%E6%89%93%E5%BC%80%22%2"
+  },
+  {
+   "text": "Failed to load resource: net::ERR_FAILED",
+   "url": "https://ai.wans.heiyu.space/backend/device/hasDefault"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/sharedMessage' failed: HTTP Authentication failed; no valid credentials available",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/transfer/message/status?qname=uploadTask&qname=downloadTask&qname=fileOperations' failed: HTTP Authenti",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/sharedMessage' failed: HTTP Authentication failed; no valid credentials available",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/transfer/message/status?qname=uploadTask&qname=downloadTask&qname=fileOperations' failed: HTTP Authenti",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  }
+ ],
+ "appConsoleErrors": [],
+ "platformConsoleErrors": [
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/sharedMessage' failed: HTTP Authentication failed; no valid credentials available",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+   "url": "https://file.wans.heiyu.space/_lzc/thumbnail/clean/token"
+  },
+  {
+   "text": "[object AxiosError$1]",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/transfer/message/status?qname=uploadTask&qname=downloadTask&qname=fileOperations' failed: HTTP Authenti",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "Access to XMLHttpRequest at 'https://ai.wans.heiyu.space/backend/device/hasDefault' from origin 'https://file.wans.heiyu.space' has been blocked by CORS policy:",
+   "url": "https://file.wans.heiyu.space/#/filepicker2?props=%7B%22title%22%3A%22%E4%BB%8E%E6%87%92%E7%8C%AB%E6%89%93%E5%BC%80%22%2"
+  },
+  {
+   "text": "Failed to load resource: net::ERR_FAILED",
+   "url": "https://ai.wans.heiyu.space/backend/device/hasDefault"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/sharedMessage' failed: HTTP Authentication failed; no valid credentials available",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/transfer/message/status?qname=uploadTask&qname=downloadTask&qname=fileOperations' failed: HTTP Authenti",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/sharedMessage' failed: HTTP Authentication failed; no valid credentials available",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/transfer/message/status?qname=uploadTask&qname=downloadTask&qname=fileOperations' failed: HTTP Authenti",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  },
+  {
+   "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials avai",
+   "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+  }
+ ],
+ "pageErrors": [
+  {
+   "text": "TypeError: Cannot read properties of undefined (reading 'deviceApiUrl')\nrt.<anonymous> (https://file.wans.heiyu.space/assets/app.331b7556.js:361:890772)",
+   "stack": "TypeError: Cannot read properties of undefined (reading 'deviceApiUrl')\nrt.<anonymous> (https://file.wans.heiyu.space/assets/app.331b7556.js:361:890772)\n    at <anonymous> (https://file.wans.heiyu.space/assets/app.331b7556.js:361:890772)\n    at X (https://file.wans.heiyu.space/assets/app.331b7556.js:361:887816)"
+  }
+ ],
+ "appPageErrors": [],
+ "platformPageErrors": [
+  {
+   "text": "TypeError: Cannot read properties of undefined (reading 'deviceApiUrl')\nrt.<anonymous> (https://file.wans.heiyu.space/assets/app.331b7556.js:361:890772)",
+   "stack": "TypeError: Cannot read properties of undefined (reading 'deviceApiUrl')\nrt.<anonymous> (https://file.wans.heiyu.space/assets/app.331b7556.js:361:890772)\n    at <anonymous> (https://file.wans.heiyu.space/assets/app.331b7556.js:361:890772)\n    at X (https://file.wans.heiyu.space/assets/app.331b7556.js:361:887816)"
+  }
+ ],
+ "failedRequests": [
+  "https://ai.wans.heiyu.space/backend/device/hasDefault net::ERR_FAILED"
+ ],
+ "appFailedRequests": [],
+ "results": [
+  {
+   "id": "A1 首屏就绪",
+   "ok": true,
+   "detail": "1269 ms；≤ 官方 5 分钟上限"
+  },
+  {
+   "id": "A2 中文界面",
+   "ok": true,
+   "detail": "lang=zh-CN 标题=WebUtils - 纯前端工具集 | 1000+免费在线开发工具大全 可见中文字 993"
+  },
+  {
+   "id": "A3 工具索引渲染",
+   "ok": true,
+   "detail": "首页工具卡片 1088 个（上游声明 1088）"
+  },
+  {
+   "id": "A4 平台注入送达",
+   "ok": true,
+   "detail": "https://webutils.wans.heiyu.space/_lzc/injects/inject_loader.js | https://webutils.wans.heiyu.space/_lzc/injects/open-save-chooser_0.js | https://webutils.wans.heiyu.space/_lzc/injects/dynamic_params.json?id=open-save-chooser"
+  },
+  {
+   "id": "A5 官方选择器已注册",
+   "ok": true,
+   "detail": "customElements.get('lzc-file-picker')=true"
+  },
+  {
+   "id": "A6 无站外样式/脚本依赖",
+   "ok": true,
+   "detail": "站外 stylesheet/script/img 引用 0 处"
+  },
+  {
+   "id": "A7 本地字体生效",
+   "ok": true,
+   "detail": "body 字体=\"Space Grotesk\", system-ui, sans-serif"
+  },
+  {
+   "id": "B1 JSON 格式化",
+   "ok": true,
+   "detail": "输出片段: \"{\\n  \\\"b\\\": 2,\\n  \\\"a\\\": [\\n    1,\\n    2,\\n    3\\n  ]\\n}\""
+  },
+  {
+   "id": "B2 Base64 编码",
+   "ok": true,
+   "detail": "输出片段: \"5oeS54yr5b6u5pyNIHdlYnV0aWxz\""
+  },
+  {
+   "id": "B3 注入幂等",
+   "ok": true,
+   "detail": "重复注入后新增 pageerror 0 条"
+  },
+  {
+   "id": "B4 二维码生成",
+   "ok": true,
+   "detail": "canvas 256x256 深色像素 33395"
+  },
+  {
+   "id": "B5 网盘选择器弹出",
+   "ok": true,
+   "detail": "iframe=https://file.wans.heiyu.space/#/filepicker2?props=%7B%22title%22%3A%22%E4%BB%8E%E6%87%92%E7%8C%AB%E6 标签=从懒猫打开 网盘目录=全部文件/我的收藏/外接硬盘/他人共享/远程挂载/本地同步 内容样例=从懒猫打开 全部文件 全部文件 我的收藏 外接硬盘 应用数据 他人共享 远程挂载 本地同步 文件名 修改时间 大小 类型 懒猫相册 2026-10-14 05:51 2 项 文件夹 应用文稿 2026-10-19 09:26 5 项 文件夹 下载 2026-10-13 13:17 0 项 文件夹 万能视频下载器 202"
+  },
+  {
+   "id": "C1 首页可进入工具页",
+   "ok": true,
+   "detail": "tools/design/aurora-generator.html → 标题=CSS 极光渐变背景生成器 - WebUtils"
+  },
+  {
+   "id": "D1 移动端无横向溢出",
+   "ok": true,
+   "detail": "documentElement 溢出 0px；单元素最宽超出 0px "
+  },
+  {
+   "id": "D2 移动端 viewport",
+   "ok": true,
+   "detail": "viewport meta=true，中文可见字 390"
+  },
+  {
+   "id": "E1 刷新后可用",
+   "ok": true,
+   "detail": "localStorage 键 1 → 3，标题=CSS 极光渐变背景生成器 - WebUtils"
+  },
+  {
+   "id": "F1 应用自身的 console 错误为 0",
+   "ok": true,
+   "detail": "无（平台网盘组件错误 16 条：本链路无客户端会话）"
+  },
+  {
+   "id": "F2 应用自身无 pageerror",
+   "ok": true,
+   "detail": "无（平台网盘组件 pageerror 1 条）"
+  },
+  {
+   "id": "F3 应用自身无失败请求",
+   "ok": true,
+   "detail": "无（平台服务失败请求 1 条）"
+  },
+  {
+   "id": "F4 无外部 CDN 请求",
+   "ok": true,
+   "detail": "无"
+  }
+ ],
+ "passed": 20,
+ "failed": 0
+}

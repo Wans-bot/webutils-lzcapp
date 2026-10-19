@@ -1,0 +1,1402 @@
+{
+ "generatedAt": "2026-10-19T10:45:08.925Z",
+ "fonts": {
+  "css": "/assets/fonts/fonts.css",
+  "urls": {
+   "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@600&family=Space+Grotesk:wght@400;600&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap": "/assets/fonts/fonts.css",
+   "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap": "/assets/fonts/fonts.css"
+  },
+  "files": [
+   {
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2",
+    "local": "assets/fonts/files/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7SUc.woff2",
+    "sha256": "ca157063339ac4ad418f214f3abfed119b0798ab4d377386ce5c9e5a7a435ebd",
+    "bytes": 25960
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2",
+    "local": "assets/fonts/files/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7SUc.woff2",
+    "sha256": "71d5ee93cc1e9f1d520a3a8b66456de18c7879d8df09d57fcd2eaff75fef0075",
+    "bytes": 18748
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2",
+    "local": "assets/fonts/files/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7SUc.woff2",
+    "sha256": "6e9e020a25f9b56d418f2c085b1d3c09725a4da23fe693a5b463064606732190",
+    "bytes": 11232
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2",
+    "local": "assets/fonts/files/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7SUc.woff2",
+    "sha256": "1be3448e292fbf05ffe176fe1e43f135013d50b1e7d324ad1a558f623d3bb6f6",
+    "bytes": 18996
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2",
+    "local": "assets/fonts/files/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2",
+    "sha256": "5c66f9e07e90c6d4ac4922cc68d60de26c17b1858e677fb5e603fce3952b3ff2",
+    "bytes": 10252
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2",
+    "local": "assets/fonts/files/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2",
+    "sha256": "34b9c504cab7a73e37b746343a449132e56cf7b5481af2cb81dc74dcff25c956",
+    "bytes": 85068
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+    "local": "assets/fonts/files/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+    "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+    "bytes": 48256
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx3cwhsk.woff2",
+    "local": "assets/fonts/files/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx3cwhsk.woff2",
+    "sha256": "62213be8a78b42f1e29d1452d91e2f8b3e745572a9dd98d3941e39fa00b37d76",
+    "bytes": 1640
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxTcwhsk.woff2",
+    "local": "assets/fonts/files/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxTcwhsk.woff2",
+    "sha256": "e17cfd15fb96909d64095015f958207063a0c07191da3512df7d560a781aebdf",
+    "bytes": 8872
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxPcwhsk.woff2",
+    "local": "assets/fonts/files/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxPcwhsk.woff2",
+    "sha256": "0a557721b1f8b36d3f3f84442689a71ca4a744300abcb46a1953f51bfc663b66",
+    "bytes": 6836
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx_cwhsk.woff2",
+    "local": "assets/fonts/files/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx_cwhsk.woff2",
+    "sha256": "c89b9cc0bc6262bd4f8d8494b6961601f3aefa829d08c2e3635f4d501d3a47c2",
+    "bytes": 5888
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx7cwhsk.woff2",
+    "local": "assets/fonts/files/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPx7cwhsk.woff2",
+    "sha256": "db5ff4db83e580426280e9337a58dc57d3a83784a1b03ad80914651594441d52",
+    "bytes": 11624
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+    "local": "assets/fonts/files/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwg.woff2",
+    "sha256": "83c005d49d8a6a50474c73a5a36ac0468076e9c4a29da7bdb14995d80560a5be",
+    "bytes": 31432
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2",
+    "local": "assets/fonts/files/V8mDoQDjQSkFtoMM3T6r8E7mPb54C-s0.woff2",
+    "sha256": "8895e3d49825128bfa5238e4c96e9b432d7a3dadbe5c17c6081267398305dc71",
+    "bytes": 6712
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2",
+    "local": "assets/fonts/files/V8mDoQDjQSkFtoMM3T6r8E7mPb94C-s0.woff2",
+    "sha256": "952dddb45d2f96f71cbf3b7f510b24379afc3c89ea02fcf89d377b45d62c0166",
+    "bytes": 18940
+   },
+   {
+    "url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2",
+    "local": "assets/fonts/files/V8mDoQDjQSkFtoMM3T6r8E7mPbF4Cw.woff2",
+    "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d",
+    "bytes": 22288
+   }
+  ]
+ },
+ "assets": {
+  "https://cdn.jsdelivr.net/npm/pinyin-pro@3/dist/index.js": {
+   "url": "https://cdn.jsdelivr.net/npm/pinyin-pro@3/dist/index.js",
+   "resolvedUrl": "https://registry.npmjs.org/pinyin-pro/-/pinyin-pro-3.29.5.tgz#package/dist/index.js",
+   "npm": {
+    "name": "pinyin-pro",
+    "version": "3.29.5",
+    "integrity": "sha512-Fk5YoRmtdHqJWqAuzYVG/NzvzeCbaG+ZEwbY6Nbps3QAIrvQQEtcm49frcyCM8i2b5najnzPDtYqrHRYTTiuwQ==",
+    "tarball": "https://registry.npmjs.org/pinyin-pro/-/pinyin-pro-3.29.5.tgz",
+    "member": "package/dist/index.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/pinyin-pro@3/dist/index.js",
+   "sha256": "a488173470768ace074c3c4fffbb880e83523b3aa9598a8147c930e7f2d5c7dc",
+   "bytes": 325698
+  },
+  "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css": {
+   "url": "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css",
+   "resolvedUrl": "https://registry.npmjs.org/@picocss/pico/-/pico-2.1.1.tgz#package/css/pico.min.css",
+   "npm": {
+    "name": "@picocss/pico",
+    "version": "2.1.1",
+    "integrity": "sha512-kIDugA7Ps4U+2BHxiNHmvgPIQDWPDU4IeU6TNRdvXQM1uZX+FibqDQT2xUOnnO2yq/LUHcwnGlu1hvf4KfXnMg==",
+    "tarball": "https://registry.npmjs.org/@picocss/pico/-/pico-2.1.1.tgz",
+    "member": "package/css/pico.min.css"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css",
+   "sha256": "fbc9a63fc9fc9f72d12fd7fc9806e11fa9f77ae4f9cad146b27003a1119ba3db",
+   "bytes": 83319
+  },
+  "https://cdn.jsdelivr.net/npm/mathjs@11.11.2/lib/browser/math.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/mathjs@11.11.2/lib/browser/math.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/mathjs/-/mathjs-11.11.2.tgz#package/lib/browser/math.js",
+   "npm": {
+    "name": "mathjs",
+    "version": "11.11.2",
+    "integrity": "sha512-SL4/0Fxm9X4sgovUpJTeyVeZ2Ifnk4tzLPTYWDyR3AIx9SabnXYqtCkyJtmoF3vZrDPKGkLvrhbIL4YN2YbXLQ==",
+    "tarball": "https://registry.npmjs.org/mathjs/-/mathjs-11.11.2.tgz",
+    "member": "package/lib/browser/math.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/mathjs@11.11.2/lib/browser/math.min.js",
+   "sha256": "f4a87203cb868b99f39d4a574e93174a3b4cc251347e92dd0c9776b9969ff8be",
+   "bytes": 732310
+  },
+  "https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz#package/dist/js-yaml.min.js",
+   "npm": {
+    "name": "js-yaml",
+    "version": "4.1.0",
+    "integrity": "sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==",
+    "tarball": "https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz",
+    "member": "package/dist/js-yaml.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/js-yaml@4.1.0/dist/js-yaml.min.js",
+   "sha256": "45dc3dd03dc07a06705a2c2989b8c7f709013f04bd5386e3279d4e447f07ebd7",
+   "bytes": 39430
+  },
+  "https://cdn.jsdelivr.net/npm/chart.js": {
+   "url": "https://cdn.jsdelivr.net/npm/chart.js",
+   "resolvedUrl": "https://registry.npmjs.org/chart.js/-/chart.js-4.5.1.tgz#package/",
+   "npm": {
+    "name": "chart.js",
+    "version": "4.5.1",
+    "integrity": "sha512-GIjfiT9dbmHRiYi6Nl2yFCq7kkwdkp1W/lp2J99rX0yo9tgJGn3lKQATztIjb5tVtevcBtIdICNWqlq5+E8/Pw==",
+    "tarball": "https://registry.npmjs.org/chart.js/-/chart.js-4.5.1.tgz",
+    "member": "package/"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/chart.js",
+   "sha256": "d246a0aa99d504501d1b2ecd8aaf4859f69c4e20a11dec52d922635ef5472d00",
+   "bytes": 6178899
+  },
+  "https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/chart.js/-/chart.js-4.4.1.tgz#package/dist/chart.umd.js",
+   "npm": {
+    "name": "chart.js",
+    "version": "4.4.1",
+    "integrity": "sha512-C74QN1bxwV1v2PEujhmKjOZ7iUM4w6BWs23Md/6aOZZSlwMzeCIDGuZay++rBgChYru7/+QFeoQW0fQoP534Dg==",
+    "tarball": "https://registry.npmjs.org/chart.js/-/chart.js-4.4.1.tgz",
+    "member": "package/dist/chart.umd.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js",
+   "sha256": "74401d738dd3e03ee5dfb3b6841210fe2c4ead8a960c4011ca4ba0b78a9fd8f3",
+   "bytes": 205125
+  },
+  "https://cdn.jsdelivr.net/npm/opentype.js@1.3.4/dist/opentype.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/opentype.js@1.3.4/dist/opentype.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/opentype.js/-/opentype.js-1.3.4.tgz#package/dist/opentype.min.js",
+   "npm": {
+    "name": "opentype.js",
+    "version": "1.3.4",
+    "integrity": "sha512-d2JE9RP/6uagpQAVtJoF0pJJA/fgai89Cc50Yp0EJHk+eLp6QQ7gBoblsnubRULNY132I0J1QKMJ+JTbMqz4sw==",
+    "tarball": "https://registry.npmjs.org/opentype.js/-/opentype.js-1.3.4.tgz",
+    "member": "package/dist/opentype.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/opentype.js@1.3.4/dist/opentype.min.js",
+   "sha256": "c0f9c7ca85e18075a8819e5fe2dee6e1d535f9a2269f5314f36cce94a183adba",
+   "bytes": 171001
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/themes/prism-tomorrow.min.css",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/themes/prism-tomorrow.min.css"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism-tomorrow.min.css",
+   "sha256": "1b15fe2971998a048aebb60f26f6eed76122071db9ef3b995abd003224f52a98",
+   "bytes": 1313
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/prism.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/prism.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/prism.min.js",
+   "sha256": "4b9994fc5f441d4c4fff23dee2535c09010bf93b1d90c2c72b0430c3d3f1008e",
+   "bytes": 58198
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-javascript.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-javascript.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-javascript.min.js",
+   "sha256": "0345ea83e12b7b974e953c79a64dea35a40308309449db70b82020fb688ac321",
+   "bytes": 4611
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-typescript.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-typescript.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-typescript.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-typescript.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-typescript.min.js",
+   "sha256": "852f5513bb9ca9db247f86ecfce74acc91c541749d34929157240518fef8152a",
+   "bytes": 1294
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-python.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-python.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js",
+   "sha256": "ed4385685bcf2d4935c8dbbab4bde16603da1329e092d2bf36c3dadd67e9a85c",
+   "bytes": 2113
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-java.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-java.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-java.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-java.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-java.min.js",
+   "sha256": "4c2dc81dfc9efa51e38a7573938065288c63c64850f01a32f8a7b20a3e24c5a7",
+   "bytes": 2770
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-c.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-c.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-c.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-c.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-c.min.js",
+   "sha256": "9e05cf21207bff46afbf80cb8f43bb58bc4a4a87b68f28bc0470342f69345209",
+   "bytes": 1893
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-cpp.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-cpp.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-cpp.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-cpp.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-cpp.min.js",
+   "sha256": "12077d9ea67882c149066e94843a6ede9036994b3724bfc45b31d97619328e14",
+   "bytes": 2596
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-csharp.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-csharp.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-csharp.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-csharp.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-csharp.min.js",
+   "sha256": "f4eca14394e584a4a3a747fe6dc0a93ddbc657880f7dbac3f8d119ccb206107e",
+   "bytes": 6179
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-go.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-go.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-go.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-go.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-go.min.js",
+   "sha256": "1225b4afb593126d4082da5fd2b131aede39831c2b2a62d6b07ea025acd2bf3f",
+   "bytes": 970
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-rust.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-rust.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-rust.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-rust.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-rust.min.js",
+   "sha256": "8ca261bb964333c717703059de8ff81e80a75d52c637913ef6f982da1ee82acb",
+   "bytes": 2472
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-ruby.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-ruby.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-ruby.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-ruby.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-ruby.min.js",
+   "sha256": "2511dcef4c4c79f8be63fcdcd56af9be91406a5ed192065da3713ab45bdb97b2",
+   "bytes": 3511
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markup-templating.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markup-templating.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-markup-templating.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-markup-templating.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markup-templating.min.js",
+   "sha256": "f30f032fbe9ae45fcc0fe93e7e930906ee70c3eebeb7e35a5e96ed09caf1b730",
+   "bytes": 1062
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-php.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-php.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-php.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-php.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-php.min.js",
+   "sha256": "9ec5c5a78996db36f16d000b81e3f1cd27ac4edb3e1fc0ff6fe5aba9f9c7b377",
+   "bytes": 6327
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-swift.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-swift.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-swift.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-swift.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-swift.min.js",
+   "sha256": "69c8a062618949fbc7b69989ab7fb2b7bc111b28ea329e53713c7a2885614b20",
+   "bytes": 2939
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-kotlin.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-kotlin.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-kotlin.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-kotlin.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-kotlin.min.js",
+   "sha256": "68c1ddff0d10147c006688289c310ccbfb5283c8687b4bcb9bf7bc9bbdf9f41c",
+   "bytes": 1921
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-sql.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-sql.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-sql.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-sql.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-sql.min.js",
+   "sha256": "3fc5f8ce69950ec73adc972f061df42aaea78faa4864709134ea2adc083f3a33",
+   "bytes": 3261
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-bash.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-bash.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-bash.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-bash.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-bash.min.js",
+   "sha256": "6260814110e5182f2956e3bd257429548d9dbf2a9b66a63719b26cf9fac966a7",
+   "bytes": 6143
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-yaml.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-yaml.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-yaml.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-yaml.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-yaml.min.js",
+   "sha256": "719c8e8b8c344dc9de510c729f65ba840b1502a0a8e7e25e2ad19ee715f65c02",
+   "bytes": 1970
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-json.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-json.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-json.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-json.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-json.min.js",
+   "sha256": "956d86baa5ae7ec4106758f354ac2d140bdcd7fc103dece02f73ed12b8d663e4",
+   "bytes": 449
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markdown.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markdown.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-markdown.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-markdown.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-markdown.min.js",
+   "sha256": "9f1166a087d9a9ffb3a833f2bccbe00920b55b41ade02a0b3054b7ab5fbc70ea",
+   "bytes": 5138
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-docker.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-docker.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-docker.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-docker.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-docker.min.js",
+   "sha256": "a6cc0faa5977a40652f62798a692a5ae171e0380480df3ed056e117597ec52dd",
+   "bytes": 1529
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-graphql.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-graphql.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-graphql.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-graphql.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-graphql.min.js",
+   "sha256": "04519bfa04631ce1f85533803a510d594763c2b9ab5c13d209cfeb3b300ef355",
+   "bytes": 2521
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-jsx.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-jsx.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-jsx.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-jsx.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-jsx.min.js",
+   "sha256": "0c8b80e4d98f6813ef95fd0e7ae2862cc0804ec305e0ad1f99c0a4bb7c28f865",
+   "bytes": 2388
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-tsx.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-tsx.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-tsx.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-tsx.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-tsx.min.js",
+   "sha256": "752c15ed4ff1d03e042b407b332892e1097d5f5e348861e2e26db20d71b349bf",
+   "bytes": 305
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-scss.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-scss.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-scss.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-scss.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-scss.min.js",
+   "sha256": "149a0fb3381c07a609cd671fd14958d1737c6ec1682deafd0b6d2018df9e5c91",
+   "bytes": 1336
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-diff.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-diff.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-diff.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-diff.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-diff.min.js",
+   "sha256": "f16816fb2242a84c6ff6715a48c6d0a3e469e3250912cb9f1b755ca537d02f48",
+   "bytes": 605
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-toml.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-toml.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-toml.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-toml.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-toml.min.js",
+   "sha256": "bc71428fec2670d59cda5ad3359615c91892f914f526cf6bfe316fc2ad55aff2",
+   "bytes": 955
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-ini.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-ini.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-ini.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-ini.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-ini.min.js",
+   "sha256": "cf1b61f4a67f0101005c5133e22113e2f3a74f1c7917034e084df688f1735381",
+   "bytes": 607
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-regex.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-regex.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-regex.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-regex.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-regex.min.js",
+   "sha256": "d28d252129d89f6b976358a67627450bd7ab15964137c4fac316f060a3ad859f",
+   "bytes": 1289
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-lua.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-lua.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-lua.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-lua.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-lua.min.js",
+   "sha256": "f6ca280a77564667cc1006e59e31e338b01eee0ef840ae02a9bd5a0fc5ea4553",
+   "bytes": 598
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-perl.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-perl.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-perl.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-perl.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-perl.min.js",
+   "sha256": "2bad12c8983d7a09a6c8640d22b6ba89eb7e78cc76ae8076ba002e727769cae8",
+   "bytes": 2175
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-haskell.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-haskell.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-haskell.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-haskell.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-haskell.min.js",
+   "sha256": "fdbddfef1dd984f9855f993408d54cd499f6591fa00aa2088674d30148bb4d68",
+   "bytes": 2975
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-elixir.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-elixir.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-elixir.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-elixir.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-elixir.min.js",
+   "sha256": "e1f6357ad3271d25ad5a2af8d34d93882cec605e98ec719499ee9ebec44ef4ce",
+   "bytes": 1846
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-clojure.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-clojure.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-clojure.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-clojure.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-clojure.min.js",
+   "sha256": "52067602944f8d1a416b3c1ff73b6d2b881230fd6af66ef3f385284ff6afe181",
+   "bytes": 3045
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-dart.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-dart.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-dart.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-dart.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-dart.min.js",
+   "sha256": "906161333796982dcfee193b58d1cc7e1bf953c158bb25cfd07bf37c85df5e11",
+   "bytes": 1584
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-r.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-r.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-r.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-r.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-r.min.js",
+   "sha256": "4befa5be96b6404c53ebc7c00e66df4a823169ab67f196ce2455451072fd1328",
+   "bytes": 526
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-matlab.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-matlab.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-matlab.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-matlab.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-matlab.min.js",
+   "sha256": "baaef5df8387fb64b23c96d2fc9f5f2003581e2e8e5e4d3f016a11142273f9a7",
+   "bytes": 432
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-scala.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-scala.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-scala.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-scala.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-scala.min.js",
+   "sha256": "2b73d569dc4cd469bce912291cd285819e8798f20c7ca56b16b40e6ffc737a24",
+   "bytes": 1368
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-powershell.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-powershell.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-powershell.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-powershell.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-powershell.min.js",
+   "sha256": "1ed401e08fc42847849774f9c9e171545ead0e0495958ea050aa9188db6c9849",
+   "bytes": 2142
+  },
+  "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-nginx.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-nginx.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz#package/components/prism-nginx.min.js",
+   "npm": {
+    "name": "prismjs",
+    "version": "1.29.0",
+    "integrity": "sha512-Kx/1w86q/epKcmte75LNrEoT+lX8pBpavuAbvJWRXar7Hz8jrtF+e3vY751p0R8H9HdArwaCTNDDzHg/ScJK1Q==",
+    "tarball": "https://registry.npmjs.org/prismjs/-/prismjs-1.29.0.tgz",
+    "member": "package/components/prism-nginx.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-nginx.min.js",
+   "sha256": "7cfd310f8cb3a53f2c4c71c371c0701a0b2d8aef82298d890d696448df5625ed",
+   "bytes": 727
+  },
+  "https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/html2canvas/-/html2canvas-1.4.1.tgz#package/dist/html2canvas.min.js",
+   "npm": {
+    "name": "html2canvas",
+    "version": "1.4.1",
+    "integrity": "sha512-fPU6BHNpsyIhr8yyMpTLLxAbkaK8ArIBcmZIRiBLiDhjeqvXolaEmDGmELFuX9I4xDcaKKcJl+TKZLqruBbmWA==",
+    "tarball": "https://registry.npmjs.org/html2canvas/-/html2canvas-1.4.1.tgz",
+    "member": "package/dist/html2canvas.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js",
+   "sha256": "e87e550794322e574a1fda0c1549a3c70dae5a93d9113417a429016838eab8cb",
+   "bytes": 198689
+  },
+  "https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/xlsx/-/xlsx-0.18.5.tgz#package/dist/xlsx.full.min.js",
+   "npm": {
+    "name": "xlsx",
+    "version": "0.18.5",
+    "integrity": "sha512-dmg3LCjBPHZnQp5/F/+nnTa+miPJxUXB6vtk42YjBBKayDNagxGEeIdWApkYPOf3Z3pm3k62Knjzp7lMeTEtFQ==",
+    "tarball": "https://registry.npmjs.org/xlsx/-/xlsx-0.18.5.tgz",
+    "member": "package/dist/xlsx.full.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js",
+   "sha256": "c9506197caf809a075b6dee1da0d36fb19da7158ffe8a88e7b0c96c5d8623c99",
+   "bytes": 881727
+  },
+  "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css": {
+   "url": "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css",
+   "resolvedUrl": "https://registry.npmjs.org/leaflet/-/leaflet-1.9.4.tgz#package/dist/leaflet.css",
+   "npm": {
+    "name": "leaflet",
+    "version": "1.9.4",
+    "integrity": "sha512-nxS1ynzJOmOlHp+iL3FyWqK89GtNL8U8rvlMOsQdTTssxZwCXh8N2NB3GDQOL+YR3XnWyZAxwQixURb+FA74PA==",
+    "tarball": "https://registry.npmjs.org/leaflet/-/leaflet-1.9.4.tgz",
+    "member": "package/dist/leaflet.css"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css",
+   "sha256": "a7837102824184820dfa198d1ebcd109ff6d0ff9a2672a074b9a1b4d147d04c6",
+   "bytes": 14806
+  },
+  "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/leaflet/-/leaflet-1.9.4.tgz#package/dist/leaflet.js",
+   "npm": {
+    "name": "leaflet",
+    "version": "1.9.4",
+    "integrity": "sha512-nxS1ynzJOmOlHp+iL3FyWqK89GtNL8U8rvlMOsQdTTssxZwCXh8N2NB3GDQOL+YR3XnWyZAxwQixURb+FA74PA==",
+    "tarball": "https://registry.npmjs.org/leaflet/-/leaflet-1.9.4.tgz",
+    "member": "package/dist/leaflet.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js",
+   "sha256": "db49d009c841f5ca34a888c96511ae936fd9f5533e90d8b2c4d57596f4e5641a",
+   "bytes": 147552
+  },
+  "https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css": {
+   "url": "https://cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css",
+   "resolvedUrl": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.8.tgz#package/dist/css/bootstrap.min.css",
+   "npm": {
+    "name": "bootstrap",
+    "version": "5.3.8",
+    "integrity": "sha512-HP1SZDqaLDPwsNiqRqi5NcP0SSXciX2s9E+RyqJIIqGo+vJeN5AJVM98CXmW/Wux0nQ5L7jeWUdplCEf0Ee+tg==",
+    "tarball": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.8.tgz",
+    "member": "package/dist/css/bootstrap.min.css"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/bootstrap@5/dist/css/bootstrap.min.css",
+   "sha256": "d85327d99c7a3ee1f9b5d0500d1370acea3ad2db39c163c2f51f232baedbdede",
+   "bytes": 232111
+  },
+  "https://cdn.jsdelivr.net/npm/bulma@0.9/css/bulma.min.css": {
+   "url": "https://cdn.jsdelivr.net/npm/bulma@0.9/css/bulma.min.css",
+   "resolvedUrl": "https://registry.npmjs.org/bulma/-/bulma-0.9.4.tgz#package/css/bulma.min.css",
+   "npm": {
+    "name": "bulma",
+    "version": "0.9.4",
+    "integrity": "sha512-86FlT5+1GrsgKbPLRRY7cGDg8fsJiP/jzTqXXVqiUZZ2aZT8uemEOHlU1CDU+TxklPEZ11HZNNWclRBBecP4CQ==",
+    "tarball": "https://registry.npmjs.org/bulma/-/bulma-0.9.4.tgz",
+    "member": "package/css/bulma.min.css"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/bulma@0.9/css/bulma.min.css",
+   "sha256": "ad3a5d3b41d7042369ade00772eead0763e9839d79568fb91ad612b2734bcfef",
+   "bytes": 207302
+  },
+  "https://cdn.jsdelivr.net/npm/normalize.css@8/normalize.min.css": {
+   "url": "https://cdn.jsdelivr.net/npm/normalize.css@8/normalize.min.css",
+   "resolvedUrl": "https://registry.npmjs.org/normalize.css/-/normalize.css-8.0.1.tgz#package/normalize.css",
+   "npm": {
+    "name": "normalize.css",
+    "version": "8.0.1",
+    "integrity": "sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==",
+    "tarball": "https://registry.npmjs.org/normalize.css/-/normalize.css-8.0.1.tgz",
+    "member": "package/normalize.css"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/normalize.css@8/normalize.min.css",
+   "sha256": "580818700724d42d7fcc4979b0197971fca1c6d2e0286769237a0ac897df5512",
+   "bytes": 6138
+  },
+  "https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/alpinejs/-/alpinejs-3.17.4.tgz#package/dist/cdn.min.js",
+   "npm": {
+    "name": "alpinejs",
+    "version": "3.17.4",
+    "integrity": "sha512-N2gsr+58XVUt7OAPKnUGiKPDtkd+xbSGTae8C8IJxeRdkkhBJPIautkJ+qcwb7lcjJ/QK3/CPVIbN20JPvtK7A==",
+    "tarball": "https://registry.npmjs.org/alpinejs/-/alpinejs-3.17.4.tgz",
+    "member": "package/dist/cdn.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/alpinejs@3/dist/cdn.min.js",
+   "sha256": "232519394c6c8fdba6f362b1d9da16106db513cdbf899011f00daab4051df31c",
+   "bytes": 55891
+  },
+  "https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/vue@3/dist/vue.global.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/vue/-/vue-3.6.0-rc.12.tgz#package/dist/vue.global.js",
+   "npm": {
+    "name": "vue",
+    "version": "3.6.0-rc.12",
+    "integrity": "sha512-fWOI0E0ZVX42RP81NmJ8OPPc7FxjvKnawFPfCkmUP4C/QfUKC7OE70LIguJKt6ueGWVtgAg9oW7L8p+U8Kfxzg==",
+    "tarball": "https://registry.npmjs.org/vue/-/vue-3.6.0-rc.12.tgz",
+    "member": "package/dist/vue.global.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/vue@3/dist/vue.global.min.js",
+   "sha256": "9a99307621eb93adc3cf93088490e8e4da41719b34456a4151e1fb2902581fe5",
+   "bytes": 544384
+  },
+  "https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/jquery/-/jquery-3.7.1.tgz#package/dist/jquery.min.js",
+   "npm": {
+    "name": "jquery",
+    "version": "3.7.1",
+    "integrity": "sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==",
+    "tarball": "https://registry.npmjs.org/jquery/-/jquery-3.7.1.tgz",
+    "member": "package/dist/jquery.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js",
+   "sha256": "fc9a93dd241f6b045cbff0481cf4e1901becd0e12fb45166a8f17f95823f0b1a",
+   "bytes": 87533
+  },
+  "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/axios/-/axios-0.34.0.tgz#package/dist/axios.min.js",
+   "npm": {
+    "name": "axios",
+    "version": "0.34.0",
+    "integrity": "sha512-CkOmqy7BaT4VC9+wRUmSM3LVwCkKK3UYc7koEqIHWRpOTJypwdNctaVOgnOjhHP3599Ubq2K8KqYwfC7c8NdPQ==",
+    "tarball": "https://registry.npmjs.org/axios/-/axios-0.34.0.tgz",
+    "member": "package/dist/axios.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/axios/dist/axios.min.js",
+   "sha256": "d2e2deca68f9d444dcd588ef1b4bf301e04415a11cfce2e56d058d9ca2d9cc91",
+   "bytes": 26446
+  },
+  "https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.8.tgz#package/dist/js/bootstrap.bundle.min.js",
+   "npm": {
+    "name": "bootstrap",
+    "version": "5.3.8",
+    "integrity": "sha512-HP1SZDqaLDPwsNiqRqi5NcP0SSXciX2s9E+RyqJIIqGo+vJeN5AJVM98CXmW/Wux0nQ5L7jeWUdplCEf0Ee+tg==",
+    "tarball": "https://registry.npmjs.org/bootstrap/-/bootstrap-5.3.8.tgz",
+    "member": "package/dist/js/bootstrap.bundle.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/bootstrap@5/dist/js/bootstrap.bundle.min.js",
+   "sha256": "e4fd49181388c48ec5040bd3fe66f57c29c8e67fcd8502b3354b96ec7ab47cc7",
+   "bytes": 80496
+  },
+  "https://cdn.jsdelivr.net/npm/acorn@8.11.2/dist/acorn.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/acorn@8.11.2/dist/acorn.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/acorn/-/acorn-8.11.2.tgz#package/dist/acorn.js",
+   "npm": {
+    "name": "acorn",
+    "version": "8.11.2",
+    "integrity": "sha512-nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==",
+    "tarball": "https://registry.npmjs.org/acorn/-/acorn-8.11.2.tgz",
+    "member": "package/dist/acorn.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/acorn@8.11.2/dist/acorn.min.js",
+   "sha256": "78fed2593f8c69441eb86c4852888b9b50ff6e895c1851daf77cc301f45f974a",
+   "bytes": 231137
+  },
+  "https://cdn.jsdelivr.net/npm/js-beautify@1.14.9/js/lib/beautify.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/js-beautify@1.14.9/js/lib/beautify.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/js-beautify/-/js-beautify-1.14.9.tgz#package/js/lib/beautify.js",
+   "npm": {
+    "name": "js-beautify",
+    "version": "1.14.9",
+    "integrity": "sha512-coM7xq1syLcMyuVGyToxcj2AlzhkDjmfklL8r0JgJ7A76wyGMpJ1oA35mr4APdYNO/o/4YY8H54NQIJzhMbhBg==",
+    "tarball": "https://registry.npmjs.org/js-beautify/-/js-beautify-1.14.9.tgz",
+    "member": "package/js/lib/beautify.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/js-beautify@1.14.9/js/lib/beautify.min.js",
+   "sha256": "18d6086351d800ae7c1574d856ba71b0ddf150f456afca3889c1f781b5f57b88",
+   "bytes": 148810
+  },
+  "https://cdn.jsdelivr.net/npm/source-map@0.7.3/dist/source-map.js": {
+   "url": "https://cdn.jsdelivr.net/npm/source-map@0.7.3/dist/source-map.js",
+   "resolvedUrl": "https://registry.npmjs.org/source-map/-/source-map-0.7.3.tgz#package/dist/source-map.js",
+   "npm": {
+    "name": "source-map",
+    "version": "0.7.3",
+    "integrity": "sha512-CkCj6giN3S+n9qrYiBTX5gystlENnRW5jZeNLHpe6aue+SrHcG5VYwujhW9s4dY31mEGsxBDrHR6oI69fTXsaQ==",
+    "tarball": "https://registry.npmjs.org/source-map/-/source-map-0.7.3.tgz",
+    "member": "package/dist/source-map.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/source-map@0.7.3/dist/source-map.js",
+   "sha256": "84a912cfa28183b00fc9e6e3e017d28cbad0697133e6964e94f15be8129c95f0",
+   "bytes": 106413
+  },
+  "https://cdn.jsdelivr.net/npm/terser@5/dist/bundle.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/terser@5/dist/bundle.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/terser/-/terser-5.51.2.tgz#package/dist/bundle.min.js",
+   "npm": {
+    "name": "terser",
+    "version": "5.51.2",
+    "integrity": "sha512-bWnjSNscmuI+GJze6ZupnHP8G/cTcsJF+bXCeQknk2SHQsgbNJnLrqiH9jZ2W4STPVXH2mDKKRX3iwPhc9Cn/Q==",
+    "tarball": "https://registry.npmjs.org/terser/-/terser-5.51.2.tgz",
+    "member": "package/dist/bundle.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/terser@5/dist/bundle.min.js",
+   "sha256": "379f8758191b03c07745486e785cbf4bed6a7ae368aa40a5a819556743f3ad1c",
+   "bytes": 1104314
+  },
+  "https://cdn.jsdelivr.net/npm/terser/dist/bundle.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/terser/dist/bundle.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/terser/-/terser-5.51.2.tgz#package/dist/bundle.min.js",
+   "npm": {
+    "name": "terser",
+    "version": "5.51.2",
+    "integrity": "sha512-bWnjSNscmuI+GJze6ZupnHP8G/cTcsJF+bXCeQknk2SHQsgbNJnLrqiH9jZ2W4STPVXH2mDKKRX3iwPhc9Cn/Q==",
+    "tarball": "https://registry.npmjs.org/terser/-/terser-5.51.2.tgz",
+    "member": "package/dist/bundle.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/terser/dist/bundle.min.js",
+   "sha256": "379f8758191b03c07745486e785cbf4bed6a7ae368aa40a5a819556743f3ad1c",
+   "bytes": 1104314
+  },
+  "https://cdn.jsdelivr.net/npm/marked/marked.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/marked/marked.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/marked/-/marked-18.1.1.tgz#package/lib/marked.umd.js",
+   "npm": {
+    "name": "marked",
+    "version": "18.1.1",
+    "integrity": "sha512-zEGgrtUG8crk+TrMacJSVABU4DYDDkS8uqgU3ohrn/2fW9C2AEfUrO3m6IhpIpQpl7YcVpiXXC9cSMWDANT3dg==",
+    "tarball": "https://registry.npmjs.org/marked/-/marked-18.1.1.tgz",
+    "member": "package/lib/marked.umd.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/marked/marked.min.js",
+   "sha256": "b82b9334406d8bdd16b6236c08de1cb65b2a859873ca9503d9cc0b292ca3c12a",
+   "bytes": 47956
+  },
+  "https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/dompurify/-/dompurify-3.4.17.tgz#package/dist/purify.min.js",
+   "npm": {
+    "name": "dompurify",
+    "version": "3.4.17",
+    "integrity": "sha512-B/pSlYVHQ58kqISD/yDjuJ1yfzI34m1gF4lAod2bwSRhiN4K5Cl3H8Af7hqB2PmTL911tdEudnnXn5FnhRoz0w==",
+    "tarball": "https://registry.npmjs.org/dompurify/-/dompurify-3.4.17.tgz",
+    "member": "package/dist/purify.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js",
+   "sha256": "cd37898f9782adf54820c413191b5691803f0f137c799d6edcfd38523b4c2c31",
+   "bytes": 29828
+  },
+  "https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js": {
+   "url": "https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js",
+   "resolvedUrl": "https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js",
+   "npm": null,
+   "local": "/assets/vendor/cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js",
+   "sha256": "2ef9c614e826f1e6fee7d6b8ed6a42676ac2c296fc47fdb7b9ac59699b992ba5",
+   "bytes": 51699
+  },
+  "https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/jsbarcode/-/jsbarcode-3.11.5.tgz#package/dist/JsBarcode.all.min.js",
+   "npm": {
+    "name": "jsbarcode",
+    "version": "3.11.5",
+    "integrity": "sha512-zv3KsH51zD00I/LrFzFSM6dst7rDn0vIMzaiZFL7qusTjPZiPtxg3zxetp0RR7obmjTw4f6NyGgbdkBCgZUIrA==",
+    "tarball": "https://registry.npmjs.org/jsbarcode/-/jsbarcode-3.11.5.tgz",
+    "member": "package/dist/JsBarcode.all.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js",
+   "sha256": "e307d9489aca4985f8e1c9bc246e8c275a091953c539e2b7b50b511efea59509",
+   "bytes": 60817
+  },
+  "https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js": {
+   "url": "https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js",
+   "resolvedUrl": "https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js",
+   "npm": null,
+   "local": "/assets/vendor/cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js",
+   "sha256": "85e6ee9ce246e3ae4424313f7e46a5ed860a28d757811de8dc9c43f306049d65",
+   "bytes": 905956
+  },
+  "https://cdn.jsdelivr.net/npm/@keeex/qrcodejs-kx@1.0.2/qrcode.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/@keeex/qrcodejs-kx@1.0.2/qrcode.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/@keeex/qrcodejs-kx/-/qrcodejs-kx-1.0.2.tgz#package/qrcode.min.js",
+   "npm": {
+    "name": "@keeex/qrcodejs-kx",
+    "version": "1.0.2",
+    "integrity": "sha512-YsCxWGO4P/ietkyTGV2YMAbwyYdFHJEfP48AcHQVAgJe6ybON/y8DAcHHdE9yItSKRQeQJ4tad9+wCPfZNH4mw==",
+    "tarball": "https://registry.npmjs.org/@keeex/qrcodejs-kx/-/qrcodejs-kx-1.0.2.tgz",
+    "member": "package/qrcode.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/@keeex/qrcodejs-kx@1.0.2/qrcode.min.js",
+   "sha256": "fe994c4b76ff1f508f011112a20da3e42e122bced67f1928972d68b2ec000077",
+   "bytes": 19800
+  },
+  "https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/jszip/-/jszip-3.10.1.tgz#package/dist/jszip.min.js",
+   "npm": {
+    "name": "jszip",
+    "version": "3.10.1",
+    "integrity": "sha512-xXDvecyTpGLrqFrvkrUSoxxfJI5AH7U8zxxtVclpsUtMCq4JQ290LY8AW5c7Ggnr/Y/oK+bQMbqK2qmtk3pN4g==",
+    "tarball": "https://registry.npmjs.org/jszip/-/jszip-3.10.1.tgz",
+    "member": "package/dist/jszip.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js",
+   "sha256": "acc7e41455a80765b5fd9c7ee1b8078a6d160bbbca455aeae854de65c947d59e",
+   "bytes": 97630
+  },
+  "https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/jsqr/-/jsqr-1.4.0.tgz#package/dist/jsQR.js",
+   "npm": {
+    "name": "jsqr",
+    "version": "1.4.0",
+    "integrity": "sha512-dxLob7q65Xg2DvstYkRpkYtmKm2sPJ9oFhrhmudT1dZvNFFTlroai3AWSpLey/w5vMcLBXRgOJsbXpdN9HzU/A==",
+    "tarball": "https://registry.npmjs.org/jsqr/-/jsqr-1.4.0.tgz",
+    "member": "package/dist/jsQR.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js",
+   "sha256": "bc40c8a15196236b2314db0856f72ca0b49980cd5413b8c852a7349f5fee0859",
+   "bytes": 256885
+  },
+  "https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/qrcode-generator/-/qrcode-generator-1.4.4.tgz#package/qrcode.js",
+   "npm": {
+    "name": "qrcode-generator",
+    "version": "1.4.4",
+    "integrity": "sha512-HM7yY8O2ilqhmULxGMpcHSF1EhJJ9yBj8gvDEuZ6M+KGJ0YY2hKpnXvRD+hZPLrDVck3ExIGhmPtSdcjC+guuw==",
+    "tarball": "https://registry.npmjs.org/qrcode-generator/-/qrcode-generator-1.4.4.tgz",
+    "member": "package/qrcode.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js",
+   "sha256": "18ae399f81182bc9de916e9c77b195df20cc58d6f2d55a62b085a299f1bf1780",
+   "bytes": 56694
+  },
+  "https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/qrcodejs/-/qrcodejs-1.0.0.tgz#package/qrcode.min.js",
+   "npm": {
+    "name": "qrcodejs",
+    "version": "1.0.0",
+    "integrity": "sha512-67rj3mMBhSBepaD57qENnltO+r8rSYlqM7HGThks/BiyDAkc86sLvkKqjkqPS5v13f7tvnt6dbEf3qt7zq+BCg==",
+    "tarball": "https://registry.npmjs.org/qrcodejs/-/qrcodejs-1.0.0.tgz",
+    "member": "package/qrcode.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js",
+   "sha256": "c541ef06327885a8415bca8df6071e14189b4855336def4f36db54bde8484f36",
+   "bytes": 19927
+  },
+  "https://unpkg.com/mqtt@5.10.3/dist/mqtt.min.js": {
+   "url": "https://unpkg.com/mqtt@5.10.3/dist/mqtt.min.js",
+   "resolvedUrl": "https://unpkg.com/mqtt@5.10.3/dist/mqtt.min.js",
+   "npm": null,
+   "local": "/assets/vendor/unpkg.com/mqtt@5.10.3/dist/mqtt.min.js",
+   "sha256": "1d32412a6abd0422278dd382bf914b2776b0bb933bb4295df6cf8aa1ca608cd5",
+   "bytes": 329585
+  },
+  "https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/lamejs/-/lamejs-1.2.1.tgz#package/lame.min.js",
+   "npm": {
+    "name": "lamejs",
+    "version": "1.2.1",
+    "integrity": "sha512-s7bxvjvYthw6oPLCm5pFxvA84wUROODB8jEO2+CE1adhKgrIvVOlmMgY8zyugxGrvRaDHNJanOiS21/emty6dQ==",
+    "tarball": "https://registry.npmjs.org/lamejs/-/lamejs-1.2.1.tgz",
+    "member": "package/lame.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/lamejs@1.2.1/lame.min.js",
+   "sha256": "15d285e2587b3bdbfd18a68de6ce07cc074f7480a82c3815da2dc1c348ec6df4",
+   "bytes": 156043
+  },
+  "https://cdnjs.cloudflare.com/ajax/libs/gif.js/0.2.0/gif.js": {
+   "url": "https://cdnjs.cloudflare.com/ajax/libs/gif.js/0.2.0/gif.js",
+   "resolvedUrl": "https://cdnjs.cloudflare.com/ajax/libs/gif.js/0.2.0/gif.js",
+   "npm": null,
+   "local": "/assets/vendor/cdnjs.cloudflare.com/ajax/libs/gif.js/0.2.0/gif.js",
+   "sha256": "a8b111071bb3b123c302e6182c01d6b3550f93a4b627398b07c46875d84090bb",
+   "bytes": 13451
+  },
+  "https://cdnjs.cloudflare.com/ajax/libs/gif.js/0.2.0/gif.worker.js": {
+   "url": "https://cdnjs.cloudflare.com/ajax/libs/gif.js/0.2.0/gif.worker.js",
+   "resolvedUrl": "https://cdnjs.cloudflare.com/ajax/libs/gif.js/0.2.0/gif.worker.js",
+   "npm": null,
+   "local": "/assets/vendor/cdnjs.cloudflare.com/ajax/libs/gif.js/0.2.0/gif.worker.js",
+   "sha256": "ca9e3048557ec05d619e18b83403cd3669c88939e5fa2d6034ce7625d445970d",
+   "bytes": 16636
+  },
+  "https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/pdf-lib/-/pdf-lib-1.17.1.tgz#package/dist/pdf-lib.min.js",
+   "npm": {
+    "name": "pdf-lib",
+    "version": "1.17.1",
+    "integrity": "sha512-V/mpyJAoTsN4cnP31vc0wfNA1+p20evqqnap0KLoRUN0Yk/p3wN52DOEsL4oBFcLdb76hlpKPtzJIgo67j/XLw==",
+    "tarball": "https://registry.npmjs.org/pdf-lib/-/pdf-lib-1.17.1.tgz",
+    "member": "package/dist/pdf-lib.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js",
+   "sha256": "0f9a5cad07941f0826586c94e089d89b918c46e5c17cf2d5a3c6f666e3bc694f",
+   "bytes": 525099
+  },
+  "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-3.11.174.tgz#package/build/pdf.min.js",
+   "npm": {
+    "name": "pdfjs-dist",
+    "version": "3.11.174",
+    "integrity": "sha512-TdTZPf1trZ8/UFu5Cx/GXB7GZM30LT+wWUNfsi6Bq8ePLnb+woNKtDymI2mxZYBpMbonNFqKmiz684DIfnd8dA==",
+    "tarball": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-3.11.174.tgz",
+    "member": "package/build/pdf.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.min.js",
+   "sha256": "5b5799e6f8c680663207ac5b42ee14eed2a406fa7af48f50c154f0c0b1566946",
+   "bytes": 320004
+  },
+  "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-3.11.174.tgz#package/build/pdf.worker.min.js",
+   "npm": {
+    "name": "pdfjs-dist",
+    "version": "3.11.174",
+    "integrity": "sha512-TdTZPf1trZ8/UFu5Cx/GXB7GZM30LT+wWUNfsi6Bq8ePLnb+woNKtDymI2mxZYBpMbonNFqKmiz684DIfnd8dA==",
+    "tarball": "https://registry.npmjs.org/pdfjs-dist/-/pdfjs-dist-3.11.174.tgz",
+    "member": "package/build/pdf.worker.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/pdfjs-dist@3.11.174/build/pdf.worker.min.js",
+   "sha256": "feabdf309770ed24bba31a5467836cdc8cf639c705af27d52b585b041bb8527b",
+   "bytes": 1087212
+  },
+  "https://cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/dompurify/-/dompurify-3.0.6.tgz#package/dist/purify.min.js",
+   "npm": {
+    "name": "dompurify",
+    "version": "3.0.6",
+    "integrity": "sha512-ilkD8YEnnGh1zJ240uJsW7AzE+2qpbOUYjacomn3AvJ6J4JhKGSZ2nh4wUIXPZrEPppaCLx5jFe8T89Rk8tQ7w==",
+    "tarball": "https://registry.npmjs.org/dompurify/-/dompurify-3.0.6.tgz",
+    "member": "package/dist/purify.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/dompurify@3.0.6/dist/purify.min.js",
+   "sha256": "ea4b09082ca4ba0ae71be6431a097678751d0453b9c52a4d2c7c39a2166ed9fc",
+   "bytes": 20931
+  },
+  "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js": {
+   "url": "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js",
+   "resolvedUrl": "https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js",
+   "npm": null,
+   "local": "/assets/vendor/cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js",
+   "sha256": "8e3b0117f4df4be452c0b6af5b8f0a0acf9d4ade23d08d55d7e312af22077762",
+   "bytes": 48316
+  },
+  "https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.4.3/bcrypt.min.js": {
+   "url": "https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.4.3/bcrypt.min.js",
+   "resolvedUrl": "https://cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.4.3/bcrypt.min.js",
+   "npm": null,
+   "local": "/assets/vendor/cdnjs.cloudflare.com/ajax/libs/bcryptjs/2.4.3/bcrypt.min.js",
+   "sha256": "afd4bd299bcde6710dd6fa029156e3e1174c48bc006b8a9eba32f964e5923783",
+   "bytes": 21634
+  },
+  "https://cdn.jsdelivr.net/npm/openpgp@5.11.2/dist/openpgp.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/openpgp@5.11.2/dist/openpgp.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/openpgp/-/openpgp-5.11.2.tgz#package/dist/openpgp.min.js",
+   "npm": {
+    "name": "openpgp",
+    "version": "5.11.2",
+    "integrity": "sha512-f8dJFVLwdkvPvW3VPFs6q9Vs2+HNhdvwls7a/MIFcQUB+XiQzRe7alfa3RtwfGJU7oUDDMAWPZ0nYsHa23Az+A==",
+    "tarball": "https://registry.npmjs.org/openpgp/-/openpgp-5.11.2.tgz",
+    "member": "package/dist/openpgp.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/openpgp@5.11.2/dist/openpgp.min.js",
+   "sha256": "b1dea0c61f3c0256a03934015571b808d365068a05d1a3c559d9389129552ed5",
+   "bytes": 552918
+  },
+  "https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/marked/-/marked-12.0.0.tgz#package/marked.min.js",
+   "npm": {
+    "name": "marked",
+    "version": "12.0.0",
+    "integrity": "sha512-Vkwtq9rLqXryZnWaQc86+FHLC6tr/fycMfYAhiOIXkrNmeGAyhSxjqu0Rs1i0bBqw5u0S7+lV9fdH2ZSVaoa0w==",
+    "tarball": "https://registry.npmjs.org/marked/-/marked-12.0.0.tgz",
+    "member": "package/marked.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js",
+   "sha256": "eb1f6b19880bc80a5fe34c6a61885173b60edda455ba7a33c98714db17d39f99",
+   "bytes": 35159
+  },
+  "https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/dompurify/-/dompurify-3.0.8.tgz#package/dist/purify.min.js",
+   "npm": {
+    "name": "dompurify",
+    "version": "3.0.8",
+    "integrity": "sha512-b7uwreMYL2eZhrSCRC4ahLTeZcPZxSmYfmcQGXGkXiZSNW1X85v+SDM5KsWcpivIiUBH47Ji7NtyUdpLeF5JZQ==",
+    "tarball": "https://registry.npmjs.org/dompurify/-/dompurify-3.0.8.tgz",
+    "member": "package/dist/purify.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/dompurify@3.0.8/dist/purify.min.js",
+   "sha256": "d2469862adea8ad924559a4fffab8a4c9c1f4e9a8534ce8e1c36ec698cf0f54c",
+   "bytes": 21074
+  },
+  "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css": {
+   "url": "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css",
+   "resolvedUrl": "https://registry.npmjs.org/katex/-/katex-0.16.9.tgz#package/dist/katex.min.css",
+   "npm": {
+    "name": "katex",
+    "version": "0.16.9",
+    "integrity": "sha512-fsSYjWS0EEOwvy81j3vRA8TEAhQhKiqO+FQaKWp0m39qwOzHVBgAUBIXWj1pB+O2W3fIpNa6Y9KSKCVbfPhyAQ==",
+    "tarball": "https://registry.npmjs.org/katex/-/katex-0.16.9.tgz",
+    "member": "package/dist/katex.min.css"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css",
+   "sha256": "505d5f829022bb7b4f24dfee0aa1141cd7bba67afe411d1240335f820960b5c3",
+   "bytes": 23196
+  },
+  "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/katex/-/katex-0.16.9.tgz#package/dist/katex.min.js",
+   "npm": {
+    "name": "katex",
+    "version": "0.16.9",
+    "integrity": "sha512-fsSYjWS0EEOwvy81j3vRA8TEAhQhKiqO+FQaKWp0m39qwOzHVBgAUBIXWj1pB+O2W3fIpNa6Y9KSKCVbfPhyAQ==",
+    "tarball": "https://registry.npmjs.org/katex/-/katex-0.16.9.tgz",
+    "member": "package/dist/katex.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js",
+   "sha256": "dc84b296ec3e884de093158f760fd9d45b6c7abe58b5381557f4e138f46a58ae",
+   "bytes": 277038
+  },
+  "https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/dompurify/-/dompurify-3.4.17.tgz#package/dist/purify.min.js",
+   "npm": {
+    "name": "dompurify",
+    "version": "3.4.17",
+    "integrity": "sha512-B/pSlYVHQ58kqISD/yDjuJ1yfzI34m1gF4lAod2bwSRhiN4K5Cl3H8Af7hqB2PmTL911tdEudnnXn5FnhRoz0w==",
+    "tarball": "https://registry.npmjs.org/dompurify/-/dompurify-3.4.17.tgz",
+    "member": "package/dist/purify.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/dompurify/dist/purify.min.js",
+   "sha256": "cd37898f9782adf54820c413191b5691803f0f137c799d6edcfd38523b4c2c31",
+   "bytes": 29828
+  },
+  "https://cdn.jsdelivr.net/npm/pinyin-pro@3.26.0/dist/index.js": {
+   "url": "https://cdn.jsdelivr.net/npm/pinyin-pro@3.26.0/dist/index.js",
+   "resolvedUrl": "https://registry.npmjs.org/pinyin-pro/-/pinyin-pro-3.26.0.tgz#package/dist/index.js",
+   "npm": {
+    "name": "pinyin-pro",
+    "version": "3.26.0",
+    "integrity": "sha512-HcBZZb0pvm0/JkPhZHWA5Hqp2cWHXrrW/WrV+OtaYYM+kf35ffvZppIUuGmyuQ7gDr1JDJKMkbEE+GN0wfMoGg==",
+    "tarball": "https://registry.npmjs.org/pinyin-pro/-/pinyin-pro-3.26.0.tgz",
+    "member": "package/dist/index.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/pinyin-pro@3.26.0/dist/index.js",
+   "sha256": "83f5c34bc94b1e4f0e0ca8be6ab28c095cea38d8cf70e5fd45e9656b5608b041",
+   "bytes": 322812
+  },
+  "https://cdn.jsdelivr.net/npm/diff@5.1.0/dist/diff.min.js": {
+   "url": "https://cdn.jsdelivr.net/npm/diff@5.1.0/dist/diff.min.js",
+   "resolvedUrl": "https://registry.npmjs.org/diff/-/diff-5.1.0.tgz#package/dist/diff.min.js",
+   "npm": {
+    "name": "diff",
+    "version": "5.1.0",
+    "integrity": "sha512-D+mk+qE8VC/PAUrlAU34N+VfXev0ghe5ywmpqrawphmVZc1bEfn56uo9qpyGp1p4xpzOHkSW4ztBd6L7Xx4ACw==",
+    "tarball": "https://registry.npmjs.org/diff/-/diff-5.1.0.tgz",
+    "member": "package/dist/diff.min.js"
+   },
+   "local": "/assets/vendor/cdn.jsdelivr.net/npm/diff@5.1.0/dist/diff.min.js",
+   "sha256": "3a29bd9374b219bd6964550085cddf6b62fc4073893d3f251c1d61ef1ea56b7f",
+   "bytes": 17458
+  }
+ },
+ "dynamic": {
+  "https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.wasm": {
+   "url": "https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.wasm",
+   "resolvedUrl": "https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.wasm",
+   "npm": null,
+   "local": "/assets/vendor/cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.wasm",
+   "sha256": "18fc45ef410e6015296dad9fa775684c96e71e7007b99f2d87799a18a354e750",
+   "bytes": 613426
+  },
+  "https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js": {
+   "url": "https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js",
+   "resolvedUrl": "https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js",
+   "npm": null,
+   "local": "/assets/vendor/cdnjs.cloudflare.com/ajax/libs/sql.js/1.8.0/sql-wasm.js",
+   "sha256": "2ef9c614e826f1e6fee7d6b8ed6a42676ac2c296fc47fdb7b9ac59699b992ba5",
+   "bytes": 51699
+  }
+ }
+}

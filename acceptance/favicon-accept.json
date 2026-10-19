@@ -1,0 +1,198 @@
+{
+ "base": "https://webutils.wans.heiyu.space",
+ "at": "2026-10-19T10:52:37.587Z",
+ "A": {
+  "consoleErrors": [
+   {
+    "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials available",
+    "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+   },
+   {
+    "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials available",
+    "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+   },
+   {
+    "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials available",
+    "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+   },
+   {
+    "text": "WebSocket connection to 'wss://file.wans.heiyu.space/api/operation/fileManager/message?protocol=2' failed: HTTP Authentication failed; no valid credentials available",
+    "url": "https://file.wans.heiyu.space/assets/app.331b7556.js"
+   }
+  ],
+  "pageErrors": [],
+  "failedRequests": []
+ },
+ "B": {
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "files": []
+ },
+ "results": [
+  {
+   "ctx": "A-平台注入",
+   "id": "A0 官方网盘选择器已注册",
+   "ok": true,
+   "detail": "customElements.get('lzc-file-picker')=true"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A1 提取出 16/32/48/64 四张图标 + 原始文件",
+   "ok": true,
+   "detail": "卡片：64x64（原始）[原始文件（shortcut icon）]，16x16[本机生成 PNG]，32x32[本机生成 PNG]，48x48[本机生成 PNG]，64x64[本机生成 PNG]"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A2 每张卡片的下载载荷都是可解码图片",
+   "ok": true,
+   "detail": "64x64（原始）: 16958 B 64x64 | 16x16: 762 B 16x16 | 32x32: 1674 B 32x32 | 48x48: 3057 B 48x48 | 64x64: 3259 B 64x64"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A3 生成尺寸与标签一致",
+   "ok": true,
+   "detail": "16x16→16x16 32x32→32x32 48x48→48x48 64x64→64x64"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A4 复制链接目标仍是站点真实图标地址",
+   "ok": true,
+   "detail": "https://www.baidu.com/favicon.ico"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A5-16x16 点下载弹出网盘保存框且文件名正确",
+   "ok": true,
+   "detail": "https://file.wans.heiyu.space/#/filepicker2?props={\"saveNames\":[\"favicon-baidu.com-16x16.png\"],\"title\":\"保存至懒猫\",\"boxId\":\"\",\"type\":\"saveAs\",\"filterSelectVisible\":false,\"isModal\":true}"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A5-32x32 点下载弹出网盘保存框且文件名正确",
+   "ok": true,
+   "detail": "https://file.wans.heiyu.space/#/filepicker2?props={\"saveNames\":[\"favicon-baidu.com-32x32.png\"],\"title\":\"保存至懒猫\",\"boxId\":\"\",\"type\":\"saveAs\",\"filterSelectVisible\":false,\"isModal\":true}"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A5-48x48 点下载弹出网盘保存框且文件名正确",
+   "ok": true,
+   "detail": "https://file.wans.heiyu.space/#/filepicker2?props={\"saveNames\":[\"favicon-baidu.com-48x48.png\"],\"title\":\"保存至懒猫\",\"boxId\":\"\",\"type\":\"saveAs\",\"filterSelectVisible\":false,\"isModal\":true}"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A5-64x64 点下载弹出网盘保存框且文件名正确",
+   "ok": true,
+   "detail": "https://file.wans.heiyu.space/#/filepicker2?props={\"saveNames\":[\"favicon-baidu.com-64x64.png\"],\"title\":\"保存至懒猫\",\"boxId\":\"\",\"type\":\"saveAs\",\"filterSelectVisible\":false,\"isModal\":true}"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A6 复制链接仍可用",
+   "ok": true,
+   "detail": "复制到：https://www.baidu.com/favicon.ico"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A7 页面无应用自身 console 错误",
+   "ok": true,
+   "detail": "无（平台组件噪音 4 条）"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A8 页面无应用自身 pageerror",
+   "ok": true,
+   "detail": "无（平台组件噪音 0 条）"
+  },
+  {
+   "ctx": "A-平台注入",
+   "id": "A9 应用自身无失败请求",
+   "ok": true,
+   "detail": "无（平台组件失败 0 条）"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B0 对照上下文里没有平台保存框",
+   "ok": true,
+   "detail": "customElements.get('lzc-file-picker')=false"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B1-16x16 点下载后浏览器落盘",
+   "ok": true,
+   "detail": "/root/wu-tkt/downloads/plain/favicon-baidu.com-16x16.png → acceptance/downloads/plain/favicon-baidu.com-16x16.png 762 B sha256=9251aae5efe045a952e59adbf16fe4c5dd22ed9f809f9fc07e4bcb4d108cb05f"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B2-16x16 落盘文件可打开且尺寸正确",
+   "ok": true,
+   "detail": "PNG 16x16 bitDepth=8"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B1-32x32 点下载后浏览器落盘",
+   "ok": true,
+   "detail": "/root/wu-tkt/downloads/plain/favicon-baidu.com-32x32.png → acceptance/downloads/plain/favicon-baidu.com-32x32.png 1674 B sha256=cc50ab92ac1605ed1052a9d40ff2b32e7f5472266885419f7cd8e9d4f7dbdf5d"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B2-32x32 落盘文件可打开且尺寸正确",
+   "ok": true,
+   "detail": "PNG 32x32 bitDepth=8"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B1-48x48 点下载后浏览器落盘",
+   "ok": true,
+   "detail": "/root/wu-tkt/downloads/plain/favicon-baidu.com-48x48.png → acceptance/downloads/plain/favicon-baidu.com-48x48.png 3057 B sha256=e930550bf30d5502591a1e58d88329fdc347ad22f4fa9c9820195251c2bb956b"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B2-48x48 落盘文件可打开且尺寸正确",
+   "ok": true,
+   "detail": "PNG 48x48 bitDepth=8"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B1-64x64 点下载后浏览器落盘",
+   "ok": true,
+   "detail": "/root/wu-tkt/downloads/plain/favicon-baidu.com-64x64.png → acceptance/downloads/plain/favicon-baidu.com-64x64.png 3259 B sha256=fdcebbb298dbc4fcfebdf41489cdfd19f31f778ac7884ce5e075756e4c382cf3"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B2-64x64 落盘文件可打开且尺寸正确",
+   "ok": true,
+   "detail": "PNG 64x64 bitDepth=8"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B3 Base64 图片工具解码并下载",
+   "ok": true,
+   "detail": "/root/wu-tkt/downloads/plain/decoded_image.png 100 B sha256=856fc5c4a6ac1ae9316a4c200513997d3194881f734193ffb6122a7c0d819a1d PNG=true 状态=解码成功!"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B4 ICO 查看器上传 .ico 后解析成功",
+   "ok": true,
+   "detail": "图标网格节点 9"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B5 ICO 查看器下载 PNG",
+   "ok": true,
+   "detail": "/root/wu-tkt/downloads/plain/icon_64x64.png 3259 B sha256=fdcebbb298dbc4fcfebdf41489cdfd19f31f778ac7884ce5e075756e4c382cf3 PNG=true"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B6 页面无应用自身 console 错误",
+   "ok": true,
+   "detail": "无（平台组件噪音 0 条）"
+  },
+  {
+   "ctx": "B-普通浏览器",
+   "id": "B7 页面无应用自身 pageerror",
+   "ok": true,
+   "detail": "无（平台组件噪音 0 条）"
+  }
+ ],
+ "passed": 27,
+ "failed": 0
+}

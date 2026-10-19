@@ -14,6 +14,8 @@
 #    ETag/Last-Modified 时客户端可能用条件请求拿到 304 复用旧页面，导致平台注入不生效。
 # 3. open-save-chooser：官方网盘文件选择器（browser 阶段），接管 input[type=file]
 #    与带 download 属性的 blob:/data: 链接，覆盖工具页的「选择文件」与「下载结果」。
+# 4. wu-favicon-proxy：本应用自建的图标同源代理（request 阶段），让「网站图标提取器」
+#    的图标预览与「下载」走同源请求，下载能真正落盘（普通浏览器直接存、客户端存网盘）。
 usage: |
   打开应用就是工具集首页：顶部搜索框输入关键词（例如「JSON」「二维码」「时间戳」），或按左侧分类挑选工具，点开即用。
 
@@ -53,6 +55,64 @@ application:
               timeout_ms: 120000,
               on_fail: "error",
             });
+    # ── 图标同源代理（request 阶段）：供「网站图标提取器」使用 ────────────────
+    # 工具的图标改为「站点自己声明的图标」（link rel=icon / apple-touch-icon / favicon.ico），
+    # 由盒子去取字节再原样回传：这样浏览器不必跨域，页面拿到字节后可以生成 16/32/48/64
+    # 四种尺寸并真正存成文件（客户端里由 open-save-chooser 接管成网盘保存框）。
+    # 地址形如 /__favicon_proxy/<目标主机><目标路径>?<原始 query>。
+    # 安全边界：只放 GET/HEAD；主机必须是公网域名（拒绝 IP 字面量与 localhost/*.local 等内网名）；
+    # 路径不许出现 ".."，不改写方法体；不外带 Cookie/Authorization/Origin/Referer。
+    - id: wu-favicon-proxy
+      'on': request
+      auth_required: false
+      when:
+        - /__favicon_proxy/*
+      do: |
+        var prefix = "/__favicon_proxy/";
+        var reqPath = String(ctx.request.path || "");
+        var method = String(ctx.request.method || "GET").toUpperCase();
+        if (["GET", "HEAD"].indexOf(method) < 0) { ctx.response.send(405, "Method not allowed"); return; }
+        if (reqPath.indexOf(prefix) !== 0) { ctx.response.send(400, "Bad favicon proxy path"); return; }
+        var tail = reqPath.slice(prefix.length);
+        var slash = tail.indexOf("/");
+        if (slash <= 0) { ctx.response.send(400, "Missing target host"); return; }
+        var host = tail.slice(0, slash).toLowerCase();
+        var targetPath = tail.slice(slash);
+        var domainOk = /^[a-z0-9]([a-z0-9-]*[a-z0-9])?(\.[a-z0-9]([a-z0-9-]*[a-z0-9])?)+$/.test(host);
+        var ipLiteral = /^\d{1,3}(\.\d{1,3}){3}$/.test(host) || host.indexOf(":") >= 0 || host.charAt(0) === "[";
+        var internalTld = /(\.|^)(localhost|local|internal|lan|home|corp|intranet|invalid|test|example)$/.test(host);
+        if (!domainOk || ipLiteral || internalTld) { ctx.response.send(403, "Target host not allowed"); return; }
+        if (targetPath.length > 2048 || targetPath.indexOf("..") >= 0 || targetPath.indexOf("\\") >= 0 || targetPath.charAt(0) !== "/") {
+          ctx.response.send(400, "Bad target path");
+          return;
+        }
+        ctx.headers.del("Cookie");
+        ctx.headers.del("Authorization");
+        ctx.headers.del("Origin");
+        ctx.headers.del("Referer");
+        ctx.proxy.to("https://" + host, {
+          path: targetPath,
+          query: ctx.request.raw_query,
+          use_target_host: true,
+          timeout_ms: 20000,
+          on_fail: "error",
+        });
+    # ── 图标代理的重定向改写（response 阶段）────────────────────────────────
+    # 被代理站点常常 301 到别的域名（例：baidu.com → www.baidu.com）。上游 Location 是
+    # 绝对外链，浏览器跟随时会变成跨域请求（缺 CORS 头即 ERR_FAILED）。这里把 3xx 的
+    # Location 改写成同源的 /__favicon_proxy/<host><path>，让重定向仍走本代理。
+    - id: wu-favicon-proxy-redirect
+      'on': response
+      auth_required: false
+      when:
+        - /__favicon_proxy/*
+      do: |
+        if (ctx.status < 300 || ctx.status >= 400) return;
+        var location = String(ctx.headers.get("Location") || "");
+        if (!location) return;
+        var match = /^https:\/\/([A-Za-z0-9.-]+)(\/[^#]*)?$/.exec(location);
+        if (!match) return;
+        ctx.headers.set("Location", "/__favicon_proxy/" + match[1].toLowerCase() + (match[2] || "/"));
     # ── HTML 缓存修正：request 阶段去掉条件请求头（只有 HTML 请求需要）──────
     - id: wu-strip-conditional-headers
       'on': request
